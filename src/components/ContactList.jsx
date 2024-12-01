@@ -6,7 +6,7 @@ function ContactList({ contacts }) {
    <div className="contact-list">
      {
        contacts.map((contact) => (
-         <ContactItem key={contact.id} {...contact} />
+         <ContactItem key={contact.id} {...contact} /> // {...contact} digunakan untuk melanjutkan setelah id={contact.id} yaitu  name={contact.name} email={contact.email} />
        ))
      }
    </div>
