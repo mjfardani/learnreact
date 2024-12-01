@@ -9,6 +9,7 @@ function ContactApp() {
    <div className="contact-app">
      <h1>Daftar Kontak</h1>
      <ContactList contacts={contacts} />
+     {/* component <ContactList />  bersifat bisa digunakan berulang */}
    </div>
  );
 }
